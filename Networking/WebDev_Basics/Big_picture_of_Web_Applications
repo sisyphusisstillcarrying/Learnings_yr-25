@@ -1,0 +1,79 @@
+## Big Picture of Web Apps (Frontend, Backend, APIs)
+![alt text](image-1.png)
+
+### **1. Frontend**
+- **Technologies Used:** 
+  - HTML (Hypertext Markup Language): For structuring the content of the web page.
+  - CSS (Cascading Style Sheets): For styling and making the web page visually appealing.
+  - JavaScript (JS): For adding interactivity and dynamic behavior to the web pages.
+
+- **Functionality:**
+  - The **frontend** is the part of the application that users interact with directly via a browser on their device (e.g., laptop, desktop, or mobile).
+  - The browser loads the HTML, CSS, and JavaScript files to render the user interface.
+  - User inputs (like clicking buttons or filling forms) are processed by JavaScript, which may trigger API calls to fetch or send data.
+
+---
+
+### **2. Backend**
+- **Technology Used:**
+  - JavaScript or another server-side programming language/framework (e.g., Node.js, Python, Java).
+  
+- **Functionality:**
+  - The **backend** handles the logic and processing required to fulfill requests from the frontend.
+  - It interacts with the database and external APIs to process user requests and return responses.
+  - For example, when the frontend sends a request to retrieve user data, the backend fetches this data from the database and sends it back in a structured format (e.g., JSON).
+
+---
+
+### **3. APIs (Application Programming Interfaces)**
+- **Purpose:**
+  - APIs act as the bridge between the **frontend** and the **backend**, enabling communication between them.
+  - The API receives requests from the frontend in JSON format and routes these requests to the backend for processing.
+
+- **Functionality:**
+  - For example, if the user searches for a product, the API sends a `GET` request to the backend. The backend retrieves the data from the database and sends it back to the API, which forwards it to the frontend.
+  - Common API actions include `GET`, `POST`, `PUT`, and `DELETE` for fetching, creating, updating, and deleting data, respectively.
+
+---
+
+### **4. Databases**
+- **Technologies Used:**
+  - Relational Database (e.g., MySQL, PostgreSQL): Structured storage of data in tables with predefined schemas.
+  - NoSQL Database (e.g., MongoDB): Flexible storage for unstructured or semi-structured data like JSON documents.
+
+- **Functionality:**
+  - The database stores all the application data, such as user profiles, orders, or product details.
+  - The backend queries the database using structured queries (e.g., SQL) or NoSQL operations to fetch or modify data.
+  - For example, when a user logs in, their credentials are verified by checking the stored data in the database.
+
+---
+
+### **How It All Comes Together**
+1. **User Interaction (Frontend):**
+   - A user accesses the web application via a browser and interacts with the frontend.
+   - Example: The user clicks a button to fetch data.
+
+2. **Request Sent to API:**
+   - JavaScript on the frontend sends an API request (e.g., `GET /data`) to the backend via HTTP/HTTPS.
+
+3. **Processing by Backend:**
+   - The backend receives the API request, processes the logic, and queries the database if necessary.
+
+4. **Database Interaction:**
+   - The backend interacts with the database (MySQL/PostgreSQL or MongoDB) to fetch, update, or delete data.
+
+5. **Response Sent via API:**
+   - The backend sends the processed data (in JSON format) back to the API.
+
+6. **Display on Frontend:**
+   - The API forwards the response to the frontend, which dynamically updates the user interface to show the results.
+
+---
+
+### Example Workflow:
+- **Scenario:** A user searches for a product.
+  1. The **frontend** captures the user’s input (search query) and sends it to the **API**.
+  2. The **API** forwards the request to the **backend**.
+  3. The **backend** queries the **database** (e.g., MongoDB for product details).
+  4. The **backend** sends the product data back to the **API**.
+  5. The **API** sends the data to the **frontend**, which displays the search results to the user.

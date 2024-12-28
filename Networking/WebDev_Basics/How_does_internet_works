@@ -1,0 +1,14 @@
+## How does the internet works
+
+Internet is the ability to connect multipe devices through a network
+
+This is part of networking
+
+Your Device IP -> ISP -> DNS -> Internet -> Connect to Website
+
+use [NsLookup](NsLookup.io) to look up DNS records of a website.
+
+![Diagram](image.png)
+
+You can either buy domains from godaddy or any other provider. 
+```You can also host your website through your local device but you will have to keep it running. we can subsitute these running which can host your website like google AWS Azure```
