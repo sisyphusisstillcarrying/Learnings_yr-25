@@ -74,12 +74,25 @@ Questions
 ---------------------------------------
 ## Sementics 
 how to wrap about and how to structure the website it is mentioned in MDN under `Document and website structure`
-Before semnatics to clearly define the portions of the page we used to use div for everything.
+Before semnatics to clearly define the portions of the page we used to use div for everything. like <div class = "Header">
+and this still works for the viewer but following the semantics help the development process.   
 The given below are not elements on their own but rather just containers
 * header <header>
+* <hgroup>
 * navigation bar <nav>
 * main content <main>
 * Sidebar
 * Footer
 
 * Globat attributes
+
+-----------------------------------------
+## Multimedia
+
+`Multimedia and embedding` from MDN
+* Aria tages
+* Video content
+* multomedia
+
+
+just know these things exist then learn as per requirement.
