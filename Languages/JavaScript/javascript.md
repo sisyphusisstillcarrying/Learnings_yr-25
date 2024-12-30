@@ -75,3 +75,13 @@ Non Primitves mostly contains objects.
 ![alt text](image-11.png)
 
 every primitive can be converted to non primitive so in JS we can say all data types are objects.
+
+
+## Conditionals
+
+![alt text](image.png)
+
+
+## array challenges
+
+![alt text](image.png)
