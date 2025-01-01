@@ -23,3 +23,5 @@
 3. [JavaScriptCore](https://developer.apple.com/documentation/javascriptcore)
 4. [Bun](https://bun.sh/)
 5. [Javascriptinfo docs](https://javascript.info/)
+6. [Javascript execution context](https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/)
+7. 
